@@ -16,6 +16,7 @@
     "recipe[vagrant_env::rbenv_rails]",
     "recipe[vagrant_env::nginx-rails]",
     "recipe[vagrant_env::mysql-server]",
-    "recipe[vagrant_env::redis]"
+    "recipe[vagrant_env::redis]",
+    "recipe[vagrant_env::image-magick]"
   ]
 }

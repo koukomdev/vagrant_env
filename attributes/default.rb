@@ -19,7 +19,7 @@ default['vim']['neobundle']['exec']  = "yes"
 default['vim']['neobundle']['repo']  = "https://github.com/Shougo/neobundle.vim"
 
 ### vim-proc
-default['vim']['vimproc']['compile'] = "yes"
+default['vim']['vimproc']['compile'] = "no"
 
 ### git
 default['git']['prefix']  = "/usr/local"
