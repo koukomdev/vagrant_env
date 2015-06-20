@@ -9,14 +9,15 @@
     "recipe[vagrant_env::rbenv_homesick]",
     "recipe[vagrant_env::zsh]",
     "recipe[vagrant_env::screen]",
-    "recipe[vagrant_env::vim-proc]",
+    "recipe[vagrant_env::vim-neobundle]",
     "recipe[vagrant_env::lv]",
     "recipe[vagrant_env::tree]",
     "recipe[vagrant_env::rbenv_bundler]",
     "recipe[vagrant_env::rbenv_rails]",
     "recipe[vagrant_env::nginx-rails]",
     "recipe[vagrant_env::mysql-server]",
-    "recipe[vagrant_env::redis]",
-    "recipe[vagrant_env::image-magick]"
+    "recipe[vagrant_env::image-magick]",
+    "recipe[vagrant_env::ghostscript]",
+    "recipe[vagrant_env::redis]"
   ]
 }

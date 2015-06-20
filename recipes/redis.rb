@@ -1,5 +1,3 @@
-include_recipe 'vagrant_env::yum-repos'
-
 package "redis" do
   action :install
 end
